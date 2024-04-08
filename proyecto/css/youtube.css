@@ -1,0 +1,31 @@
+.youtube {
+  position: relative;
+  background-color: #ff0000;
+  width: 120px;
+  height: 72px;
+  border-radius: 10px / 30px;
+  transform: scale(1.5);
+  margin-top: 40px;
+
+  .play {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 16px 0 16px 30px;
+    border-color: transparent transparent transparent #fff;
+    left: 49px;
+    bottom: 20px;
+  }
+}
+
+.youtube:before {
+  content: "";
+  position: absolute;
+  background-color: #ff0000;
+  z-index: -1;
+  width: 106px;
+  height: 80.6px;
+  border-radius: 48px / 6px;
+  left: 7px;
+  bottom: -4.4px;
+}

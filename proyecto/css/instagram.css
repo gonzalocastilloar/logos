@@ -1,0 +1,37 @@
+.instagram {
+  width: 200px;
+  aspect-ratio: 1/1;
+  border-radius: 20%;
+  background: radial-gradient(100% 100% at left bottom, rgb(255, 187, 0), transparent),
+    linear-gradient(145deg, rgb(70 51 213), rgb(255, 0, 51));
+  display: grid;
+  grid-template-columns: auto;
+  position: relative;
+  align-items: center;
+  justify-items: center;
+
+  div {
+    position: absolute;
+  }
+
+  .rectangulo {
+    border-radius: 20%;
+    border: 12px solid white;
+    width: 65%;
+    aspect-ratio: 1/1;
+  }
+
+  .circulo {
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    width: 30%;
+    border: 12px solid white;
+  }
+
+  .punto {
+    border: 8px solid white;
+    border-radius: 100%;
+    left: 67.5%;
+    top: 25%;
+  }
+}

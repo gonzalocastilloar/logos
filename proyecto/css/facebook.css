@@ -1,0 +1,20 @@
+.facebook {
+  width: 200px;
+  aspect-ratio: 1/1;
+  border-radius: 20%;
+  background: rgb(36, 83, 183);
+  display: grid;
+  grid-template-columns: auto;
+  position: relative;
+  align-items: center;
+  justify-items: center;
+  overflow: hidden;
+
+  .letra {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 230px;
+    color: white;
+    top: -10px;
+  }
+}
